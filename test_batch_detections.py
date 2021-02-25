@@ -1,6 +1,7 @@
 # Face alignment and crop demo
-# Uses MTCNN or FaceBoxes as a face detector;
+# Uses MTCNN, FaceBoxes or Retinaface as a face detector;
 # Support different backbones, include PFLD, MobileFaceNet, MobileNet;
+# Retinaface+MobileFaceNet gives the best peformance
 # Cunjian Chen (ccunjian@gmail.com), Feb. 2021
 
 from __future__ import division
