@@ -7,7 +7,7 @@ Implementation of face landmark detection with PyTorch. The models were trained 
 * Support heatmap-based models.
 
 ## Inference
-Test on a sample folder and save the landmark detection results. Support different backbones and face detectors.
+Test on a sample folder and save the landmark detection and cropped face results. Support different backbones and face detectors.
 > python3 test_batch_detections.py --backbone MobileFaceNet --detector Retinaface
 * backbone: MobileNet/PFLD/MobileFaceNet; detector: MTCNN/FaceBoxes/Retinaface
 
@@ -79,6 +79,18 @@ The following features will be added soon.
 * 68-point: [300W](https://ibug.doc.ic.ac.uk/resources/300-W/), [Menpo](https://ibug.doc.ic.ac.uk/resources/2nd-facial-landmark-tracking-competition-menpo-ben/), [300-VW](https://ibug.doc.ic.ac.uk/resources/300-VW/), [300W-LP](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm), [300W-Style](https://github.com/D-X-Y/landmark-detection/tree/master/SAN)
 * 98-point: [WFLW](https://wywu.github.io/projects/LAB/WFLW.html)
 * 106-point: [JD](https://facial-landmarks-localization-challenge.github.io/)
+
+## Citations:
+
+If you use library in your project, please, cite it as follows.
+
+@misc{piq,
+  title={{PyTorch Face Landmark}: A Fast and Accurate Facial Landmark Detector},
+  url={https://github.com/cunjian/pytorch_face_landmark},
+  note={Open-source software available at https://github.com/cunjian/pytorch_face_landmark},
+  author={Cunjian Chen},
+  year={2021},
+}
 
 
 ## References:
