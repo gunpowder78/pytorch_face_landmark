@@ -1,7 +1,7 @@
-# Face alignment demo
+# Face alignment and crop demo
 # Uses MTCNN or FaceBoxes as a face detector;
 # Support different backbones, include PFLD, MobileFaceNet, MobileNet;
-# Cunjian Chen (ccunjian@gmail.com), Aug 2020
+# Cunjian Chen (ccunjian@gmail.com), Feb. 2021
 
 from __future__ import division
 import argparse
