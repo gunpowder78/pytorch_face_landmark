@@ -85,7 +85,7 @@ The following features will be added soon.
 
 If you use library in your project, please, cite it as follows.
 ```
-@misc{piq,
+@misc{PFL,
   title={{PyTorch Face Landmark}: A Fast and Accurate Facial Landmark Detector},
   url={https://github.com/cunjian/pytorch_face_landmark},
   note={Open-source software available at https://github.com/cunjian/pytorch_face_landmark},
