@@ -84,7 +84,7 @@ The following features will be added soon.
 ## Citations:
 
 If you use library in your project, please, cite it as follows.
-
+```
 @misc{piq,
   title={{PyTorch Face Landmark}: A Fast and Accurate Facial Landmark Detector},
   url={https://github.com/cunjian/pytorch_face_landmark},
@@ -92,7 +92,7 @@ If you use library in your project, please, cite it as follows.
   author={Cunjian Chen},
   year={2021},
 }
-
+```
 
 ## References:
 * https://github.com/biubug6/Pytorch_Retinaface
